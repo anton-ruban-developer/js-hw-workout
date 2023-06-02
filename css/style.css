@@ -1,0 +1,772 @@
+/*
+font-family: 'General Sans', sans-serif;
+*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'General Sans', sans-serif;
+}
+a,input,img {
+    display: block;
+    text-decoration: none;
+}
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
+.first_screen {
+    height: 1234px;
+    background: #064bb4;
+    margin: auto;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    height: 86px;
+}
+.logo {
+    display: flex;
+    justify-content: space-between;
+    width: 123px;
+    height: 40px;
+    margin: auto 0;
+    
+}
+.first_screen .logo span {
+    font-weight: 600;
+    font-size: 20px;
+    letter-spacing: 0.065em;
+    color: #FFFFFF;
+    margin: auto;
+}
+.first_screen .logo span .skinny {
+    font-weight: 400; 
+}
+header ul {
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    width: 500px;
+    height: 24px;
+    margin: auto;
+}
+header ul li a {
+    font-weight: 500;
+    font-size: 16px;
+    letter-spacing: 0.005em;
+    color: #ffffff;
+    opacity: 0.56;
+}
+header ul li a:hover {
+    opacity: 1;
+}
+.first_screen .icons {
+    display: flex;
+    justify-content: space-between;
+    width: 254px;
+    height: 46px;
+    margin: auto 0;
+}
+.first_screen .icons a {
+    margin: auto 0;
+    margin-right: 22px;
+}
+.first_screen .icons .log_in, .sign_up {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 22px;
+    letter-spacing: 0.005em;
+    color: #FFFFFF;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 12px 16px;
+    width: 83px;
+    height: 46px;
+    border: 1px solid #FFFFFF;
+    border-radius: 20px;
+    background: #064bb4;
+}
+.first_screen .icons .sign_up {
+    color: #1C1C1E;
+    padding: 12px 16px;
+    width: 90px;
+    height: 46px;
+    background: #BCFF5E;
+}
+.first_screen .content {
+    display: flex;
+}
+.first_screen .content .text h2 {
+    width: 616px;
+    height: 240px;
+    font-weight: 400;
+    font-size: 72px;
+    line-height: 80px;
+    letter-spacing: 0.005em;
+    color: #FFFFFF;
+    margin-top: 62px;
+    position: absolute;
+}
+.first_screen .content .text p {
+    width: 462px;
+    height: 72px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.005em;
+    color: #C7C7CC;
+    margin-top: 318px;
+}
+
+.first_screen .content .logo_hero {
+    margin-left: -64px;
+    margin-top: 19px;
+}
+.first_screen .content .muscle {
+ position: absolute;
+ margin-top: 194px;
+ margin-left: 1000px;
+}
+.first_screen .content .heart {
+    position: absolute;
+    margin-top: 528px;
+    margin-right: 242px;
+    margin-left: 852px;
+}
+.first_screen .content .ellipse {
+    position: absolute;
+    margin-top: 439px;
+    margin-left: 690px;
+}
+.first_screen .content .ellipse_top {
+    position: absolute;
+    margin-top: 250px;
+    margin-left: 526px;
+}
+.first_screen .content .logo_hero_1 {
+    position: absolute;
+    margin-top: 277px;
+    margin-left: 429px;
+}
+.first_screen .content .text .check {
+    justify-content: center;
+    align-items: center;
+    padding: 16px 40px;
+    width: 176px;
+    height: 56px;
+    background: #BCFF5E;
+    border-radius: 24px;
+    margin-top: 48px;
+    font-weight: 500;
+    font-size: 16px;
+    letter-spacing: 0.005em;
+    color: #1C1C1E;
+}
+.first_screen .support {
+    display: block;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 22px;
+    letter-spacing: 0.005em;
+    color: #FFFFFF;
+    margin-top: 80px;
+}
+.first_screen .sponsors  {
+    display: flex;
+    justify-content: space-between;
+    width: 493px;
+    height: 32px;
+    opacity: 0.64;
+    margin-top: 24px;
+}
+.first_screen .wrapper {
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+}
+.first_screen .wrapper .options {
+    width: 873px;
+    height: 278px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 120px;
+    background: #FFFFFF;
+    box-shadow: 64px 64px 80px rgba(8, 23, 45, 0.16);
+    border-radius: 20px;
+}
+.first_screen .wrapper .options .option_1, .option_2, .option_3 {
+    width: 291px;
+    height: 278px;
+    padding: 24px;
+}
+.first_screen .wrapper .options h4 {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 28px;
+    letter-spacing: 0.005em;
+    color: #1C1C1E;
+    margin-top: 24px;
+}
+.first_screen .wrapper .options p {
+    width: 243px;
+    height: 72px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.005em;
+    color: #636366;
+    margin-top: 12px;
+}
+.first_screen .wrapper .options a {
+    display: block;
+    width: 74px;
+    height: 22px;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 22px;
+    letter-spacing: 0.005em;
+    color: #1C1C1E;
+}
+.first_screen .wrapper .option_2 {
+    background: #BCFF5E;
+}
+.first_screen .wrapper .options .learn {
+    display: flex;
+    justify-content: space-between;
+    width: 98px;
+    height: 22px;
+    border-radius: 20px;
+    margin-top: 24px;
+}
+.program {
+    width: 263px;
+    height: 256px;
+    margin-top: 131px;
+    margin-left: 64px;
+}
+.program h3 {
+    width: 249px;
+    height: 144px;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 48px;
+    letter-spacing: 0.005em;
+    color: #FFFFFF;
+}
+.first_screen .wrapper .program p {
+    width: 263px;
+    height: 96px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.005em;
+    color: #D1D1D6;
+    margin-top: 16px;
+}
+
+
+.second_screen {
+    height: 1680px;
+    background: #F9F9FB;
+    margin: auto;
+}
+.second_screen h2 {
+    width: 582px;
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 56px;
+    text-align: center;
+    letter-spacing: 0.005em;
+    text-transform: capitalize;
+    color: #1C1C1E;
+    margin: auto;
+    padding-top: 120px;
+}
+.second_screen .wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+.second_screen .wrapper .text, .text_2 {
+    width: 521px;
+    height: 576px;
+    padding: 32px 40px;
+    background: #FFFFFF;
+    border-radius: 20px;
+    margin-top: 56px;
+}
+.second_screen .wrapper .text p, .text_2 p {
+    width: 393px;
+    height: 120px;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 40px;
+    letter-spacing: 0.005em;
+    color: #1C1C1E;
+    margin-top: 12px;
+}
+.second_screen .wrapper .text p, .text_2 p {
+    width: 436px;
+}
+.second_screen .wrapper .info_1, .info_2, .info_3, .info_4, .info_5, .info_6 {
+    display: flex;
+    justify-content: space-between;
+    width: 441px;
+    height: 36px;
+    margin-top: 40px;
+}
+.second_screen .wrapper .info_2 {
+    width: 415px;
+    margin-top: 24px;
+}
+.second_screen .wrapper .info_3 {
+    width: 296px;
+    margin-top: 24px;
+}
+.second_screen .wrapper .info_5 {
+    width: 230px;
+    margin-top: 24px;
+}
+.second_screen .wrapper .info_6 {
+    width: 150px;
+    margin-top: 24px;
+}
+.second_screen .wrapper .text span, .text_2 span {
+    font-weight: 500px;
+    font-size: 18px;
+    line-height: 26px;
+    letter-spacing: 0.005em;
+    color: #1C1C1E;
+    margin: auto;
+}
+.second_screen .wrapper .info_4 span {
+    margin-left: 11px;
+
+}
+.second_screen .wrapper .text .join, .text_2 .join {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.005em;
+    color: #1C1C1E;
+    padding: 16px 40px;
+    width: 150px;
+    height: 56px;
+    background: #BCFF5E;
+    border-radius: 24px;
+    margin-top: 80px;
+}
+.second_screen .wrapper .text_2  {
+    margin-top: 120px;
+}
+.second_screen .wrapper .photo {
+    margin-top: 83px;
+}
+.second_screen .wrapper .photo_2 {
+    margin-top: 147px;
+}
+
+
+.third_screen {
+    height: 843px;
+    background: #F9F9FB;
+    margin: auto;
+}
+.third_screen .membership {
+    width: 84px;
+    height: 22px;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 22px;
+    letter-spacing: 0.005em;
+    color: #064BB4;
+    margin: auto;
+    padding-top: 128px;
+}
+.third_screen h2 {
+    width: 776px;
+    height: 96px;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 48px;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.005em;
+    color: #171725;
+    margin: 40px auto;
+}
+.third_screen .plan {
+    width: 1040px;
+    height: 410px;
+    display: flex;
+    justify-content: space-between;
+    margin: 43px auto;
+}
+.third_screen .plan_list {
+    width: 320px;
+    height: 410px;
+    padding: 40px;
+    background: #FFFFFF;
+    border-radius: 24px;
+}
+.third_screen .plan_list .number {
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 48px;
+    letter-spacing: 0.005em;
+    color: #1C1C1E;
+}
+.third_screen .plan_list .month {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #AEAEB2
+}
+.third_screen .plan_list h5 {
+    font-size: 20px;
+    line-height: 28px;
+    letter-spacing: 0.005em;
+    color: #064BB4;
+    margin-top: 12px;
+}
+.third_screen .plan_list .offer .item_1, .item_2, .item_3 {
+    display: flex;
+    margin-top: 32px;
+    height: 24px;
+
+}
+
+.third_screen .plan_list .offer span  {
+    margin-left: 12px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #1C1C1E;
+}
+.third_screen .plan_list .offer .item_3 span {
+    margin-left: 9px;
+}
+.third_screen .plan_list .offer .item_2, .item_3 {
+    margin-top: 24px;
+}
+.third_screen .plan_list .purchase_plan {
+    font-weight: 500;
+    font-size: 14px;
+    text-align: center;
+    line-height: 22px;
+    letter-spacing: 0.005em;
+    color: #1C1C1E;
+    align-items: center;
+    padding: 12px 16px;
+    width: 240px;
+    height: 46px;
+    background: #BCFF5E;
+    border-radius: 20px;
+    margin-top: 32px;
+}
+
+.fourth_screen {
+    height: 756px;
+    background: #F9F9FB;
+    margin: auto;
+}
+.fourth_screen .membership {
+    display: block;
+    width: 47px;
+    font-weight: 500;
+    font-size: 14px;
+    color: #064BB4;
+    margin: auto;
+    padding-top: 128px;
+}
+.fourth_screen h2 {
+    width: 317px;
+    height: 96px;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 48px;
+    text-align: center;
+    letter-spacing: 0.005em;
+    color: #171725;
+    margin: 24px auto 0;
+}
+.fourth_screen .wrapper {
+    display: flex;
+    justify-content: space-between;
+    width: 676px;
+    height: 254px;
+    margin: 48px auto 0;
+}
+.fourth_screen .wrapper .feedback .review {
+    width: 105px;
+    height: 22px;
+    font-weight: 500;
+    font-size: 14px;
+    color: #AEAEB2;
+}
+.fourth_screen .wrapper .feedback p {
+    width: 602px;
+    height: 128px;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 32px;
+    color: #000000;
+}
+.fourth_screen .feedback .member {
+    width: 164px;
+    height: 56px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 32px;
+}
+.fourth_screen .feedback .member .name {
+    width: 96px;
+    height: 50px;
+}
+.fourth_screen .feedback .member .name .davis {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.005em;
+    color: #000000;
+}
+.fourth_screen .feedback .member .name .position {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
+    letter-spacing: 0.005em;
+    color: #000000;
+    margin-top: 4px;
+}
+.fourth_screen .slider {
+    display: flex;
+    justify-content: space-between;
+    width: 128px;
+    height: 32px;
+    margin: 32px auto 0;
+    align-items: center;
+}
+.fourth_screen .slider_item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 40px;
+    height: 8px;
+}
+.fourth_screen .slider_item .one {
+    display: block;
+    width: 16px;
+    height: 8px;
+    background: #064BB4;
+    border-radius: 8px;
+}
+.fourth_screen .slider_item .two, .three {
+    display: block;
+    width: 8px;
+    height: 8px;
+    background: #E9EBED;
+    border-radius: 100px;
+}
+.fifth_screen {
+    height: 304px;
+    background: #064BB4;
+    margin: auto;
+}
+.fifth_screen .wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+.fifth_screen .wrapper .discover h2 {
+    width: 740px;
+    height: 56px;
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 56px;
+    letter-spacing: 0.005em;
+    color: #FFFFFF;
+    margin-top: 80px;
+}
+.fifth_screen .wrapper .discover p {
+    width: 627px;
+    height: 72px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.005em;
+    color: #FFFFFF;
+    opacity: 0.64;
+    margin-top: 16px;
+}
+.fifth_screen .wrapper .btn span {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #1C1C1E;
+}
+.fifth_screen .wrapper .btn a {
+    align-items: center;
+    padding: 16px 40px;
+    width: 170px;
+    height: 56px;
+    background: #BCFF5E;
+    border-radius: 24px;
+    margin-top: 124px;
+}
+.sixth_screen {
+    height: 408px;
+    background: #08172D;
+    margin: auto;
+}
+.sixth_screen .main {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 120px;
+}
+.sixth_screen .main .wrapper {
+    width: 363px;
+    height: 104px; 
+}
+.sixth_screen .main .wrapper .logo {
+    width: 123px;
+    height: 40px;
+    align-items: center;
+}
+.sixth_screen .main .wrapper .logo span {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    letter-spacing: 0.065em;
+    color: #FFFFFF;
+}
+.sixth_screen .main .wrapper .logo .skinny {
+    font-weight: 400;
+}
+.sixth_screen .main .wrapper p {
+    width: 363px;
+    height: 48px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.005em;
+    color: #AEAEB2;
+    margin-top: 16px;
+}
+.sixth_screen .main .wrapper_2 {
+    width: 296px;
+    height: 80px;
+    align-items: center;
+}
+.sixth_screen .main .wrapper_2 ul {
+    list-style-type: none;
+}
+.sixth_screen .main .wrapper_2 .top {
+    display: flex;
+    justify-content: space-between;
+    width: 296px;
+    height: 24px;
+}
+.sixth_screen .main .wrapper_2 .top li a, .bottom li a {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.005em;
+    color: #C5C5C5;
+}
+.sixth_screen .main .wrapper_2 .bottom {
+    display: flex;
+    justify-content: space-between;
+    width: 245px;
+    height: 24px;
+    margin: 32px auto 0;
+}
+.sixth_screen .main .wrapper_3 {
+    width: 366px;
+    height: 96px;
+}
+.sixth_screen .main .wrapper_3 a span {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.5px;
+    color: #8E8E93;
+}
+.sixth_screen .main .wrapper_3 .btns {
+    width: 366px;
+    height: 56px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 16px;
+}
+.sixth_screen .main .wrapper_3 .btns .your span {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.005em;
+    color: #CBCBCB;
+}
+.sixth_screen .main .wrapper_3 .btns .your {
+    align-items: center;
+    padding: 16px 32px;
+    width: 247px;
+    height: 56px;
+    background: rgba(255, 255, 255, 0.12);
+    border-radius: 32px;
+}
+.sixth_screen .main .wrapper_3 .btns .send span {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.005em;
+    color: #1C1C1E;
+}
+.sixth_screen .main .wrapper_3 .btns .send {
+    align-items: center;
+    padding: 16px 32px;
+    width: 103px;
+    height: 56px;
+    background: #BCFF5E;
+    border-radius: 32px;
+}
+.sixth_screen .line {
+    opacity: 0.16;
+    border: 1px solid #E9EBED;
+    margin-top: 95px;
+}
+.sixth_screen .general {
+    height: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 24px;
+}
+.sixth_screen .social_media {
+    display: flex;
+    justify-content: space-between;
+    width: 240px;
+    height: 40px;
+}
+.sixth_screen .terms {
+    display: flex;
+    justify-content: space-between;
+    width: 268px;
+    height: 24px;
+}
+.sixth_screen .terms span {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.005em;
+    color: #C5C5C5;
+}
+.sixth_screen .copyrights {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.005em;
+    color: #AEAEB2;
+}
